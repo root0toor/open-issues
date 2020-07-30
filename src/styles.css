@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.repoList {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100% !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.repoContent {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+  width: 100% !important;
+  border-bottom: 1px solid #e1e4e8 !important;
+}
+
+.pagination {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.inputBox {
+  width: 60%;
+  height: 40px;
+  padding: 6px 8px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24292e;
+  vertical-align: middle;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(27, 31, 35, 0.075);
+  margin: 20px 10px 0px 0px;
+  display: flex;
+}
